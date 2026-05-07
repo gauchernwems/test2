@@ -880,9 +880,401 @@
         explanation: "0.15 × 20 = 3.",
         bonus: 140,
       },
-    ];
+      {
+        category: "Number System",
+        difficulty: "Rational Number Ruins",
+        prompt: "What is -3.5 + 1.2?",
+        choices: ["-4.7", "-2.3", "2.3", "4.7"],
+        answer: "-2.3",
+        explanation: "Starting at -3.5 and adding 1.2 moves closer to zero, landing at -2.3.",
+        bonus: 140,
+      },
+      {
+        category: "Number System",
+        difficulty: "Fraction Falls",
+        prompt: "What is 1/3 + 1/6?",
+        choices: ["1/9", "2/9", "1/2", "2/3"],
+        answer: "1/2",
+        explanation: "Use a common denominator of 6: 1/3 = 2/6, and 2/6 + 1/6 = 3/6 = 1/2.",
+        bonus: 150,
+      },
+      {
+        category: "Number System",
+        difficulty: "Integer Ice Cave",
+        prompt: "What is -18 ÷ 3?",
+        choices: ["-6", "6", "-15", "15"],
+        answer: "-6",
+        explanation: "A negative divided by a positive is negative. 18 ÷ 3 = 6, so the answer is -6.",
+        bonus: 130,
+      },
+      {
+        category: "Number System",
+        difficulty: "Decimal Dragon",
+        prompt: "What is 0.75 written as a fraction in simplest form?",
+        choices: ["1/4", "2/3", "3/4", "75/10"],
+        answer: "3/4",
+        explanation: "0.75 = 75/100, which simplifies to 3/4.",
+        bonus: 140,
+      },
+      {
+        category: "Number System",
+        difficulty: "Opposite Outpost",
+        prompt: "Which number is the opposite of -11?",
+        choices: ["-11", "0", "1/11", "11"],
+        answer: "11",
+        explanation: "Opposite numbers are the same distance from zero on opposite sides of the number line.",
+        bonus: 120,
+      },
+      {
+        category: "Number System",
+        difficulty: "Square Root Shortcut",
+        prompt: "What is √81?",
+        choices: ["8", "9", "40.5", "162"],
+        answer: "9",
+        explanation: "9 × 9 = 81, so √81 = 9.",
+        bonus: 130,
+      },
+      {
+        category: "Number System",
+        difficulty: "Mixed Number Maze",
+        prompt: "What is 2 1/2 as an improper fraction?",
+        choices: ["3/2", "4/2", "5/2", "6/2"],
+        answer: "5/2",
+        explanation: "2 wholes = 4/2, and 4/2 + 1/2 = 5/2.",
+        bonus: 140,
+      },
+      {
+        category: "Number System",
+        difficulty: "Product Portal",
+        prompt: "What is -2.5 × 4?",
+        choices: ["-10", "10", "-6.5", "6.5"],
+        answer: "-10",
+        explanation: "A negative times a positive is negative. 2.5 × 4 = 10, so the answer is -10.",
+        bonus: 140,
+      },
+      {
+        category: "Number System",
+        difficulty: "Comparison Cavern",
+        prompt: "Which statement is true?",
+        choices: ["-8 > -3", "-3 > -8", "-8 = -3", "0 < -8"],
+        answer: "-3 > -8",
+        explanation: "On a number line, -3 is to the right of -8, so -3 is greater.",
+        bonus: 130,
+      },
+      {
+        category: "Number System",
+        difficulty: "Exponent Elevator",
+        prompt: "What is 4²?",
+        choices: ["6", "8", "12", "16"],
+        answer: "16",
+        explanation: "4² means 4 × 4, which equals 16.",
+        bonus: 120,
+      },
 
-    const scenes = [
+      {
+        category: "Geometry",
+        difficulty: "Circle Area Arena",
+        prompt: "What is the area of a circle with radius 3? Use π ≈ 3.14.",
+        choices: ["9.42", "18.84", "28.26", "36"],
+        answer: "28.26",
+        explanation: "Area = πr². 3² = 9, and 3.14 × 9 = 28.26.",
+        bonus: 170,
+      },
+      {
+        category: "Geometry",
+        difficulty: "Supplementary Staircase",
+        prompt: "Two angles are supplementary. One angle is 48°. What is the other angle?",
+        choices: ["42°", "48°", "132°", "228°"],
+        answer: "132°",
+        explanation: "Supplementary angles add to 180°. 180 - 48 = 132°.",
+        bonus: 150,
+      },
+      {
+        category: "Geometry",
+        difficulty: "Complement Cave",
+        prompt: "Two angles are complementary. One angle is 35°. What is the other angle?",
+        choices: ["35°", "55°", "90°", "145°"],
+        answer: "55°",
+        explanation: "Complementary angles add to 90°. 90 - 35 = 55°.",
+        bonus: 150,
+      },
+      {
+        category: "Geometry",
+        difficulty: "Volume Vault",
+        prompt: "A rectangular prism has length 8, width 2, and height 5. What is its volume?",
+        choices: ["15", "40", "80", "160"],
+        answer: "80",
+        explanation: "Volume = length × width × height = 8 × 2 × 5 = 80.",
+        bonus: 160,
+      },
+      {
+        category: "Geometry",
+        difficulty: "Perimeter Pathway",
+        prompt: "A rectangle has length 12 and width 4. What is its perimeter?",
+        choices: ["16", "24", "32", "48"],
+        answer: "32",
+        explanation: "Perimeter = 12 + 4 + 12 + 4 = 32.",
+        bonus: 140,
+      },
+      {
+        category: "Geometry",
+        difficulty: "Triangle Sum Tower",
+        prompt: "A triangle has angles 40° and 65°. What is the third angle?",
+        choices: ["75°", "85°", "105°", "115°"],
+        answer: "75°",
+        explanation: "Triangle angles add to 180°. 180 - 40 - 65 = 75°.",
+        bonus: 150,
+      },
+      {
+        category: "Geometry",
+        difficulty: "Scale Factor Forest",
+        prompt: "A drawing has a scale of 1 cm = 4 meters. A path is 7 cm on the drawing. What is the real length?",
+        choices: ["11 m", "21 m", "28 m", "32 m"],
+        answer: "28 m",
+        explanation: "7 × 4 = 28 meters.",
+        bonus: 150,
+      },
+      {
+        category: "Geometry",
+        difficulty: "Quadrant Quest",
+        prompt: "In which quadrant is the point (-3, 5)?",
+        choices: ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"],
+        answer: "Quadrant II",
+        explanation: "Negative x and positive y means the point is in Quadrant II.",
+        bonus: 150,
+      },
+      {
+        category: "Geometry",
+        difficulty: "Circle Radius Room",
+        prompt: "A circle has a diameter of 14. What is its radius?",
+        choices: ["7", "14", "28", "196"],
+        answer: "7",
+        explanation: "The radius is half the diameter. 14 ÷ 2 = 7.",
+        bonus: 130,
+      },
+      {
+        category: "Geometry",
+        difficulty: "Net Navigator",
+        prompt: "Which 3D figure has 6 square faces?",
+        choices: ["Cone", "Cube", "Cylinder", "Triangular prism"],
+        answer: "Cube",
+        explanation: "A cube has 6 faces, and all 6 faces are squares.",
+        bonus: 130,
+      },
+
+      {
+        category: "Statistics & Probability",
+        difficulty: "Probability Pyramid",
+        prompt: "A number cube is rolled once. What is the probability of rolling an even number?",
+        choices: ["1/6", "1/3", "1/2", "2/3"],
+        answer: "1/2",
+        explanation: "The even outcomes are 2, 4, and 6. That is 3 out of 6, or 1/2.",
+        bonus: 140,
+      },
+      {
+        category: "Statistics & Probability",
+        difficulty: "Mean Machine",
+        prompt: "The scores are 70, 80, 90, and 100. What is the mean?",
+        choices: ["80", "85", "90", "95"],
+        answer: "85",
+        explanation: "70 + 80 + 90 + 100 = 340, and 340 ÷ 4 = 85.",
+        bonus: 140,
+      },
+      {
+        category: "Statistics & Probability",
+        difficulty: "Median Minecart",
+        prompt: "What is the median of 6, 8, 12, 14?",
+        choices: ["8", "10", "11", "12"],
+        answer: "10",
+        explanation: "There are two middle numbers, 8 and 12. Their average is 10.",
+        bonus: 150,
+      },
+      {
+        category: "Statistics & Probability",
+        difficulty: "Range Ridge",
+        prompt: "What is the range of 22, 18, 30, 25, 15?",
+        choices: ["10", "12", "15", "45"],
+        answer: "15",
+        explanation: "The range is greatest minus least: 30 - 15 = 15.",
+        bonus: 130,
+      },
+      {
+        category: "Statistics & Probability",
+        difficulty: "Marble Mystery",
+        prompt: "A bag has 3 yellow, 5 red, and 2 blue marbles. What is the probability of not choosing blue?",
+        choices: ["1/5", "2/5", "4/5", "5/5"],
+        answer: "4/5",
+        explanation: "There are 10 marbles total. 8 are not blue, so the probability is 8/10 = 4/5.",
+        bonus: 160,
+      },
+      {
+        category: "Statistics & Probability",
+        difficulty: "Tree Diagram Trail",
+        prompt: "A student chooses one shirt from 3 shirts and one hat from 2 hats. How many outfits are possible?",
+        choices: ["2", "3", "5", "6"],
+        answer: "6",
+        explanation: "Multiply the choices: 3 shirts × 2 hats = 6 outfits.",
+        bonus: 150,
+      },
+      {
+        category: "Statistics & Probability",
+        difficulty: "Likely Lagoon",
+        prompt: "If an event has a probability of 0.9, which word best describes it?",
+        choices: ["Impossible", "Unlikely", "Likely", "Certain"],
+        answer: "Likely",
+        explanation: "A probability close to 1 is likely, but not certain unless it equals 1.",
+        bonus: 130,
+      },
+      {
+        category: "Statistics & Probability",
+        difficulty: "Sample Survey Station",
+        prompt: "Which sample would best represent the favorite lunch of all 7th graders?",
+        choices: ["Only basketball players", "Only one math class", "A random group from all 7th grade classes", "Only students who bring lunch"],
+        answer: "A random group from all 7th grade classes",
+        explanation: "A random group from the whole population is more representative.",
+        bonus: 160,
+      },
+      {
+        category: "Statistics & Probability",
+        difficulty: "Experimental Probability Exit",
+        prompt: "A coin lands on heads 12 times out of 20 flips. What is the experimental probability of heads?",
+        choices: ["2/5", "3/5", "1/2", "12/32"],
+        answer: "3/5",
+        explanation: "12 out of 20 simplifies to 3/5.",
+        bonus: 150,
+      },
+      {
+        category: "Statistics & Probability",
+        difficulty: "Box Plot Bridge",
+        prompt: "Which measure describes the middle value of a data set?",
+        choices: ["Mean", "Median", "Range", "Maximum"],
+        answer: "Median",
+        explanation: "The median is the middle value when the data are ordered.",
+        bonus: 130,
+      },
+
+      {
+        category: "Expressions & Equations",
+        difficulty: "Variable Volcano",
+        prompt: "Solve: x - 8 = 14",
+        choices: ["6", "14", "22", "112"],
+        answer: "22",
+        explanation: "Add 8 to both sides: x = 22.",
+        bonus: 120,
+      },
+      {
+        category: "Expressions & Equations",
+        difficulty: "Two-Step Tunnel",
+        prompt: "Solve: 4x + 3 = 19",
+        choices: ["3", "4", "5", "16"],
+        answer: "4",
+        explanation: "Subtract 3 to get 4x = 16, then divide by 4.",
+        bonus: 160,
+      },
+      {
+        category: "Expressions & Equations",
+        difficulty: "Expression Elevator",
+        prompt: "Evaluate 5n - 2 when n = 6.",
+        choices: ["13", "28", "30", "32"],
+        answer: "28",
+        explanation: "5(6) - 2 = 30 - 2 = 28.",
+        bonus: 130,
+      },
+      {
+        category: "Expressions & Equations",
+        difficulty: "Like Terms Lagoon",
+        prompt: "Simplify: 6x + 2 + 3x + 7",
+        choices: ["9x + 9", "9x + 14", "11x + 9", "18x"],
+        answer: "9x + 9",
+        explanation: "Combine x-terms: 6x + 3x = 9x. Combine constants: 2 + 7 = 9.",
+        bonus: 150,
+      },
+      {
+        category: "Expressions & Equations",
+        difficulty: "Distributive Door",
+        prompt: "Simplify: 2(3x - 5)",
+        choices: ["5x - 5", "6x - 5", "6x - 10", "6x + 10"],
+        answer: "6x - 10",
+        explanation: "Distribute 2 to both terms: 2 × 3x = 6x and 2 × -5 = -10.",
+        bonus: 150,
+      },
+      {
+        category: "Expressions & Equations",
+        difficulty: "Inequality Igloo",
+        prompt: "Solve: x + 4 > 9",
+        choices: ["x > 5", "x < 5", "x > 13", "x < 13"],
+        answer: "x > 5",
+        explanation: "Subtract 4 from both sides: x > 5.",
+        bonus: 150,
+      },
+      {
+        category: "Expressions & Equations",
+        difficulty: "Equation Escape Room",
+        prompt: "Solve: 7x = 42",
+        choices: ["5", "6", "7", "49"],
+        answer: "6",
+        explanation: "Divide both sides by 7: x = 6.",
+        bonus: 130,
+      },
+      {
+        category: "Expressions & Equations",
+        difficulty: "Coefficient Castle",
+        prompt: "In the expression 9x + 4, what is the coefficient?",
+        choices: ["x", "4", "9", "13"],
+        answer: "9",
+        explanation: "The coefficient is the number multiplied by the variable.",
+        bonus: 120,
+      },
+      {
+        category: "Expressions & Equations",
+        difficulty: "Constant Cave",
+        prompt: "In the expression 3x + 11, what is the constant?",
+        choices: ["3", "x", "11", "14"],
+        answer: "11",
+        explanation: "The constant is the number without a variable.",
+        bonus: 120,
+      },
+      {
+        category: "Expressions & Equations",
+        difficulty: "Equation Bridge",
+        prompt: "Solve: (x/3) + 2 = 7",
+        choices: ["5", "9", "15", "21"],
+        answer: "15",
+        explanation: "Subtract 2 to get x/3 = 5, then multiply by 3 to get x = 15.",
+        bonus: 170,
+      },
+
+      {
+        category: "Ratios & Proportional Relationships",
+        difficulty: "Unit Rate River",
+        prompt: "A printer prints 45 pages in 5 minutes. What is the unit rate?",
+        choices: ["5 pages per minute", "9 pages per minute", "40 pages per minute", "50 pages per minute"],
+        answer: "9 pages per minute",
+        explanation: "45 ÷ 5 = 9 pages per minute.",
+        bonus: 140,
+      },
+      {
+        category: "Ratios & Proportional Relationships",
+        difficulty: "Proportion Peak",
+        prompt: "Solve: 3/4 = x/20",
+        choices: ["12", "15", "17", "24"],
+        answer: "15",
+        explanation: "Since 4 × 5 = 20, multiply 3 by 5 to get 15.",
+        bonus: 150,
+      },
+      {
+        category: "Ratios & Proportional Relationships",
+        difficulty: "Percent Portal",
+        prompt: "What is 25% of 80?",
+        choices: ["10", "20", "25", "40"],
+        answer: "20",
+        explanation: "25% is one-fourth. One-fourth of 80 is 20.",
+        bonus: 130,
+      },
+      {
+        category: "Ratios & Proportional Relationships",
+        difficulty: "Speed Shrine",
+        prompt: "A cyclist rides 36 mi
       "You enter the MCAS Training Arena. A glowing gate blocks your path.",
       "You cross the Integer Bridge, but the floor starts disappearing.",
       "A locked door appears with an equation carved into it.",
@@ -915,291 +1307,4 @@
     const gameOverScreen = document.getElementById("gameOverScreen");
     const livesText = document.getElementById("livesText");
     const coinsText = document.getElementById("coinsText");
-    const streakText = document.getElementById("streakText");
-    const levelText = document.getElementById("levelText");
-    const shieldText = document.getElementById("shieldText");
-    const progressBar = document.getElementById("progressBar");
-    const levelInfo = document.getElementById("levelInfo");
-    const storyText = document.getElementById("storyText");
-    const storyEmoji = document.getElementById("storyEmoji");
-    const categoryTag = document.getElementById("categoryTag");
-    const difficultyTag = document.getElementById("difficultyTag");
-    const questionText = document.getElementById("questionText");
-    const choiceGrid = document.getElementById("choiceGrid");
-    const feedbackBox = document.getElementById("feedbackBox");
-    const feedbackMessage = document.getElementById("feedbackMessage");
-    const feedbackExplanation = document.getElementById("feedbackExplanation");
-    const nextButton = document.getElementById("nextButton");
-    const finalCoins = document.getElementById("finalCoins");
-    const finalLevel = document.getElementById("finalLevel");
-
-    function calculateEarnedCoins(questionBonus, currentLives, isBossBattle = false) {
-      const bossMultiplier = isBossBattle ? 2 : 1;
-      return (questionBonus + currentLives * 25) * bossMultiplier;
-    }
-
-    function getRandomQuestion(questionBank = endlessQuestions, usedIndices = []) {
-      const availableIndices = questionBank
-        .map((_, questionIndex) => questionIndex)
-        .filter((questionIndex) => !usedIndices.includes(questionIndex));
-
-      if (availableIndices.length === 0) {
-        const selectedIndex = Math.floor(Math.random() * questionBank.length);
-        return {
-          question: questionBank[selectedIndex],
-          index: selectedIndex,
-          resetPool: true,
-        };
-      }
-
-      const randomPoolIndex = Math.floor(Math.random() * availableIndices.length);
-      const selectedIndex = availableIndices[randomPoolIndex];
-
-      return {
-        question: questionBank[selectedIndex],
-        index: selectedIndex,
-        resetPool: false,
-      };
-    }
-
-    function validateQuestionBank(questionBank) {
-      return (
-        Array.isArray(questionBank) &&
-        questionBank.length > 0 &&
-        questionBank.every((question) => {
-          return (
-            question &&
-            typeof question.category === "string" &&
-            question.category.length > 0 &&
-            typeof question.difficulty === "string" &&
-            question.difficulty.length > 0 &&
-            typeof question.prompt === "string" &&
-            question.prompt.length > 0 &&
-            Array.isArray(question.choices) &&
-            question.choices.length >= 2 &&
-            question.choices.every((choice) => typeof choice === "string" && choice.length > 0) &&
-            typeof question.answer === "string" &&
-            question.choices.includes(question.answer) &&
-            typeof question.explanation === "string" &&
-            question.explanation.length > 0 &&
-            typeof question.bonus === "number" &&
-            question.bonus > 0
-          );
-        })
-      );
-    }
-
-    function getLevelProgress(currentLevel) {
-      return ((currentLevel - 1) % 10) * 10;
-    }
-
-    function shouldAwardShield(nextStreak) {
-      return nextStreak > 0 && nextStreak % 5 === 0;
-    }
-
-    function isBossLevel(currentLevel) {
-      return currentLevel > 0 && currentLevel % 10 === 0;
-    }
-
-    function runTests() {
-      console.assert(validateQuestionBank(endlessQuestions), "Every question must have choices, an answer, an explanation, and a positive bonus.");
-      console.assert(scenes.length > 0, "There should be at least one story scene.");
-      console.assert(sceneEmoji.length > 0, "There should be at least one scene emoji.");
-      console.assert(calculateEarnedCoins(100, 3) === 175, "Coin formula should add the bonus plus 25 coins per remaining life.");
-      console.assert(calculateEarnedCoins(200, 1) === 225, "Coin formula should work when only 1 life remains.");
-      console.assert(calculateEarnedCoins(100, 3, true) === 350, "Boss battles should double earned coins.");
-      console.assert(getLevelProgress(1) === 0, "Level 1 progress should start at 0%.");
-      console.assert(getLevelProgress(10) === 90, "Level 10 should show 90% progress toward the boss cycle.");
-      console.assert(getLevelProgress(11) === 0, "Level 11 should restart the progress cycle.");
-      console.assert(shouldAwardShield(5) === true, "A 5-answer streak should award a shield.");
-      console.assert(shouldAwardShield(4) === false, "A 4-answer streak should not award a shield yet.");
-      console.assert(isBossLevel(10) === true, "Level 10 should be a boss level.");
-      console.assert(isBossLevel(9) === false, "Level 9 should not be a boss level.");
-      console.assert(endlessQuestions.every((question) => question.choices.includes(question.answer)), "Each answer must appear in its choices.");
-
-      const noRepeatTest = getRandomQuestion(endlessQuestions, [0, 1, 2]);
-      console.assert(noRepeatTest.index !== 0 && noRepeatTest.index !== 1 && noRepeatTest.index !== 2, "Random question generator should avoid previously used questions.");
-    }
-
-    function showOnly(activeScreen) {
-      startScreen.classList.add("hidden");
-      playScreen.classList.add("hidden");
-      gameOverScreen.classList.add("hidden");
-      stats.classList.add("hidden");
-
-      if (activeScreen === "start") {
-        startScreen.classList.remove("hidden");
-        title.textContent = "MCAS Quest";
-      }
-
-      if (activeScreen === "play") {
-        playScreen.classList.remove("hidden");
-        stats.classList.remove("hidden");
-        title.textContent = "MCAS Quest";
-      }
-
-      if (activeScreen === "gameover") {
-        gameOverScreen.classList.remove("hidden");
-        title.textContent = "Game Over";
-      }
-    }
-
-    function updateStats() {
-      livesText.textContent = lives;
-      coinsText.textContent = coins;
-      streakText.textContent = streak;
-      levelText.textContent = level;
-      shieldText.textContent = shield ? "Ready" : "None";
-    }
-
-    function renderQuestion() {
-      const bossBattle = isBossLevel(level);
-      const progress = getLevelProgress(level);
-
-      updateStats();
-      progressBar.style.width = progress + "%";
-      levelInfo.textContent = bossBattle
-        ? `Level ${level} • Boss Battle`
-        : `Level ${level} • Next boss at level ${Math.ceil(level / 10) * 10}`;
-
-      storyText.textContent = bossBattle
-        ? "⚠️ BOSS BATTLE! A giant MCAS guardian blocks your path. Correct answers are worth double coins."
-        : scenes[index % scenes.length];
-
-      storyEmoji.textContent = bossBattle ? "👹" : sceneEmoji[index % sceneEmoji.length];
-      categoryTag.textContent = current.category;
-      difficultyTag.textContent = bossBattle ? "Boss Battle" : current.difficulty;
-      questionText.textContent = current.prompt;
-
-      choiceGrid.innerHTML = "";
-      current.choices.forEach((choice) => {
-        const button = document.createElement("button");
-        button.className = "choice";
-        button.textContent = choice;
-        button.addEventListener("click", () => checkAnswer(choice, button));
-        choiceGrid.appendChild(button);
-      });
-
-      feedbackBox.className = "feedback";
-      feedbackMessage.textContent = "";
-      feedbackExplanation.textContent = "";
-      nextButton.classList.add("hidden");
-      answered = false;
-      selected = null;
-    }
-
-    function startGame() {
-      screen = "play";
-      index = 0;
-      level = 1;
-      streak = 0;
-      shield = false;
-      lives = 3;
-      coins = 0;
-      selected = null;
-      answered = false;
-      usedQuestionIndices = [];
-
-      const newQuestionData = getRandomQuestion(endlessQuestions, []);
-      current = newQuestionData.question;
-      currentQuestionIndex = newQuestionData.index;
-      usedQuestionIndices = [newQuestionData.index];
-
-      showOnly("play");
-      renderQuestion();
-    }
-
-    function checkAnswer(choice, clickedButton) {
-      if (answered) return;
-
-      answered = true;
-      selected = choice;
-
-      const bossBattle = isBossLevel(level);
-      const allChoiceButtons = choiceGrid.querySelectorAll("button");
-      allChoiceButtons.forEach((button) => {
-        button.disabled = true;
-        if (button.textContent === current.answer) button.classList.add("correct");
-      });
-
-      if (choice === current.answer) {
-        const nextStreak = streak + 1;
-        const earned = calculateEarnedCoins(current.bonus, lives, bossBattle);
-        const earnedShield = shouldAwardShield(nextStreak);
-
-        streak = nextStreak;
-        coins += earned;
-
-        if (earnedShield) {
-          shield = true;
-        }
-
-        feedbackBox.className = "feedback correct";
-        feedbackMessage.textContent = bossBattle
-          ? `Boss defeated! You earned ${earned} coins.`
-          : earnedShield
-          ? `Correct! You earned ${earned} coins and unlocked a shield.`
-          : `Correct! You earned ${earned} coins.`;
-      } else {
-        clickedButton.classList.add("wrong");
-
-        const shieldProtected = shield;
-        const newLives = shieldProtected ? lives : lives - 1;
-
-        shield = false;
-        streak = 0;
-        lives = newLives;
-
-        feedbackBox.className = "feedback wrong";
-        feedbackMessage.textContent = shieldProtected
-          ? `Not quite. The correct answer was ${current.answer}. Your shield protected you, so you did not lose a life.`
-          : `Not quite. The correct answer was ${current.answer}. You lost 1 life.`;
-
-        if (newLives <= 0) {
-          updateStats();
-          setTimeout(showGameOver, 1200);
-        }
-      }
-
-      feedbackExplanation.textContent = current.explanation;
-      updateStats();
-
-      if (lives > 0) {
-        nextButton.classList.remove("hidden");
-      }
-    }
-
-    function nextQuestion() {
-      index += 1;
-      level += 1;
-
-      const updatedUsedIndices = [...usedQuestionIndices, currentQuestionIndex];
-      const nextQuestionData = getRandomQuestion(endlessQuestions, updatedUsedIndices);
-
-      if (nextQuestionData.resetPool) {
-        usedQuestionIndices = [nextQuestionData.index];
-      } else {
-        usedQuestionIndices = [...updatedUsedIndices, nextQuestionData.index];
-      }
-
-      current = nextQuestionData.question;
-      currentQuestionIndex = nextQuestionData.index;
-      renderQuestion();
-    }
-
-    function showGameOver() {
-      screen = "gameover";
-      finalCoins.textContent = coins;
-      finalLevel.textContent = level;
-      showOnly("gameover");
-    }
-
-    document.getElementById("startButton").addEventListener("click", startGame);
-    document.getElementById("restartButton").addEventListener("click", startGame);
-    nextButton.addEventListener("click", nextQuestion);
-
-    runTests();
-    showOnly("start");
-  </script>
-</body>
-</html>
+    co
